@@ -1,0 +1,125 @@
+body {
+  margin: 0;
+  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
+    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
+    sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+code {
+  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
+    monospace;
+}
+ .table {
+  width: 100%;
+  border-collapse: collapse;
+  padding: 0;
+  margin: 0 0 45px;
+} 
+.table .title {
+  font-size: 16px;
+}
+
+.table .hitti{
+  background-image: url(https://msk.tele2.ru//api/media/asset?mediaId=m1310027);
+  background-position: right 46px top;
+  background-repeat: no-repeat;
+}
+.table tbody td {
+  padding: 23px 25px 23px 20px;
+}
+.table .title {
+  font-size: 16px;
+}
+.table .price-td {
+  width: 20%;
+}
+.table .sku-value {
+  font-weight: 700;
+  font-size: 22px;
+}
+.container {
+  width: auto;
+  max-width: 1152px;
+}
+.box-link{
+     position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    z-index: 2;
+    color: transparent;
+}
+.service-icon{
+    margin-bottom: 0;
+    margin-left: -2px;
+    white-space: nowrap;
+}
+.service-icon img{
+    display: inline;
+    width: 32px;
+    height: 32px;
+    margin-right: -7px;
+    border: 2px solid #fff;
+    border-radius: 100%;
+    position: relative;
+}
+.btns-rows {
+  text-align: center;
+  display: inline-block;
+  width: 100%;
+}
+.btns-rows>div:last-child {
+  margin-bottom: 0;
+}
+.btns-rows>div:last-child {
+  margin-bottom: 0;
+}
+.btn.btn-small {
+  padding: 7px 18px;
+  border-radius: 20px;
+}
+.btn {
+  display: inline-block;
+  vertical-align: middle;
+  padding: 17px 43px;
+  border-radius: 30px;
+  font-family: tele2_textsans_regular;
+  font-size: 16px;
+  font-weight: 700;
+  line-height: 22px;
+  white-space: nowrap;
+  cursor: pointer;
+  margin: 0 0 20px;
+  min-width: 125px;
+  background: transparent;
+  border: 2px solid #1f2229;
+  color: #1f2229;
+  transition: color .2s linear,background-color .2s linear,border-color .2s linear;
+  text-align: center;
+  outline: none;
+}
+.price {
+  font-size: 52px;
+  line-height: 50px;
+  padding: 0 9px 0 0;}
+  .price-value, .price-wrap .price-value-below {
+    display: inline-block;
+    vertical-align: top;
+    text-align: left;
+    padding: 4px 0 0;}
+  .value {
+      font-size: 22px;
+      font-weight: 700;
+      line-height: 24px;
+      display: block;
+  }
+  .per-value, .table .price-wrap .per-value {
+    padding-top: 3px;}  
+    .per-value {
+      display: block;
+      font-size: 16px;
+      line-height: 18px;
+  } 
